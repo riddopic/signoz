@@ -1,8 +1,6 @@
 module go.signoz.io/signoz
 
-go 1.22.0
-
-toolchain go1.22.7
+go 1.23.0
 
 require (
 	dario.cat/mergo v1.0.1
@@ -71,7 +69,7 @@ require (
 	go.uber.org/zap v1.27.0
 	golang.org/x/crypto v0.32.0
 	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842
-	golang.org/x/oauth2 v0.24.0
+	golang.org/x/oauth2 v0.27.0
 	golang.org/x/sync v0.10.0
 	golang.org/x/text v0.21.0
 	google.golang.org/grpc v1.67.1
