@@ -45,7 +45,7 @@ jobs:
         id: short-sha
       - name: branch-name
         id: branch-name
-        uses: tj-actions/branch-names@v7.0.7
+        uses: tj-actions/branch-names@v9.0.0
       - name: docker-tag
         run: |
           if [ '${{ steps.branch-name.outputs.is_tag }}' == 'true' ]; then
@@ -101,7 +101,7 @@ jobs:
         id: short-sha
       - name: branch-name
         id: branch-name
-        uses: tj-actions/branch-names@v7.0.7
+        uses: tj-actions/branch-names@v9.0.0
       - name: docker-tag
         run: |
           if [ '${{ steps.branch-name.outputs.is_tag }}' == 'true' ]; then
